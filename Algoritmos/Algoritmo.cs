@@ -2,7 +2,7 @@
 {
     public class Algoritmo
     {
-        public static int[]? DefinirArreglo()
+        protected static int[]? DefinirArreglo()
         {
             try
             {

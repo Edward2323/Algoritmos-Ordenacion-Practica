@@ -19,10 +19,9 @@
             int comparaciones = 0;
             int intercambios = 0;
 
-            int n = tiempos.Length;
 
             // Bucle que recorre cada elemento a partir del segundo
-            for (int i = 1; i < n; i++)
+            for (int i = 1; i < tiempos.Length; i++)
             {
                 int actual = tiempos[i]; // Valor que se quiere insertar ordenadamente
                 int j = i - 1;

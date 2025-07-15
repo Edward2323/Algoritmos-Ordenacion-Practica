@@ -19,15 +19,13 @@
             int comparaciones = 0;
             int intercambios = 0;
 
-            int n = precios.Length;
-
             // Bucle externo para cada posición del arreglo
-            for (int i = 0; i < n - 1; i++)
+            for (int i = 0; i < precios.Length - 1; i++)
             {
                 int indiceMin = i; // Suponemos que el mínimo está en la posición actual
 
                 // Buscar el índice del valor mínimo en el resto del arreglo
-                for (int j = i + 1; j < n; j++)
+                for (int j = i + 1; j < precios.Length; j++)
                 {
                     comparaciones++; // Registrar una comparación
                     if (precios[j] < precios[indiceMin])
